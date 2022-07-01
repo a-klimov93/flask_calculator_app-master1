@@ -1,7 +1,5 @@
-from logging import Logger
-from tkinter.tix import COLUMN
 from flask import Flask, render_template, request
-from  flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__) # Creating our Flask Instance
 
